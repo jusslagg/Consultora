@@ -1,75 +1,251 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asesoramientos en Salud - Norberto García</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./img/Logo-NG.ico" type="image/x-icon" />
+    <!-- Enlace a Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">Asesoramientos en Salud</div>
-            <ul>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">
+          <img
+            src="./img/Logo PNG.png"
+            alt="Logo Norberto García"
+            class="logo-img"
+          />
+          Asesoramientos en Salud
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <div class="hero-container">
-                <div class="hero-text">
-                    <h1>Asesoramiento y Gestión en Salud</h1>
-                    <p>Más de 25 años de experiencia en asesoramiento y gestión ante organismos de fiscalización e inscripción en Salud.</p>
-                    <div class="buttons">
-                        <a href="mailto:nog47@yahoo.com.ar" class="btn btn-email">Envíanos un Email</a>
-                        <a href="https://wa.me/+541150413292" class="btn btn-whatsapp">Chatea en WhatsApp</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section id="hero" class="text-center bg-info text-white py-5">
+        <div class="container">
+          <h1>Asesoramiento y Gestión en Salud</h1>
+          <p>
+            Más de 25 años de experiencia en asesoramiento y gestión ante
+            organismos de fiscalización e inscripción en Salud.
+          </p>
+          <div class="buttons">
+            <a href="mailto:nog47@yahoo.com.ar" class="btn btn-email">
+              Envíanos un Email
+            </a>
+            <a href="https://wa.me/+541150413292" class="btn btn-whatsapp">
+              Whatsapp
+            </a>
+          </div>
+        </div>
+      </section>
 
-        <section id="services-container">
-            <div class="services-and-image">
-                <section id="services">
-                    <h2>Servicios Ofrecidos</h2>
-                    <div class="service">
-                        <h3>Asesoramiento Personalizado</h3>
-                        <p>Brindamos servicios personalizados adaptados a cada situación y exigencia legal en el rubro Salud.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Gestión de Inscripciones y Habilitación</h3>
-                        <p>Asesoramos y gestionamos reinscripción, inscripción y registros, categorización y habilitación de establecimientos y servicios.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Referencias Comerciales</h3>
-                        <p>Ofrecemos referencias comerciales para consultas previas y aseguramos la calidad de nuestros servicios.</p>
-                    </div>
-                </section>
-                <div class="hero-image">
-                    <img src="path/to/norberto-garcia.jpg" alt="Norberto García" />
-                </div>
+      <section id="services-container" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h2>Servicios Ofrecidos</h2>
+              <div class="service mb-4">
+                <h3>Asesoramiento Personalizado</h3>
+                <p>
+                  Brindamos servicios personalizados adaptados a cada situación
+                  y exigencia legal en el rubro Salud.
+                </p>
+              </div>
+              <div class="service mb-4">
+                <h3>Gestión de Inscripciones y Habilitación</h3>
+                <p>
+                  En <strong>Asesoramientos en Salud</strong>, nos encargamos de
+                  la gestión completa de inscripciones y habilitación para
+                  establecimientos y servicios de salud. Esto incluye:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Inscripción y Reinscripción:</strong> Facilitamos el
+                    proceso de inscripción y reinscripción ante las autoridades
+                    pertinentes.
+                  </li>
+                  <li>
+                    <strong>Registros y Categorización:</strong> Mantenemos y
+                    actualizamos los registros necesarios, y categorizamos según
+                    las normativas vigentes.
+                  </li>
+                  <li>
+                    <strong>Habilitación:</strong> Gestionamos la habilitación
+                    de nuevos establecimientos y servicios, asegurando su
+                    conformidad con las regulaciones.
+                  </li>
+                </ul>
+              </div>
+              <div class="service mb-4">
+                <h3>Referencias Comerciales</h3>
+                <p>
+                  Ofrecemos referencias comerciales para validar nuestra
+                  experiencia y calidad. Nuestros servicios incluyen:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Consultas:</strong> Disponemos de referencias de
+                    clientes previos para consultas sobre nuestro desempeño.
+                  </li>
+                  <li>
+                    <strong>Evaluaciones:</strong> Proporcionamos evaluaciones y
+                    testimonios que reflejan la calidad de nuestro servicio.
+                  </li>
+                </ul>
+                <p>
+                  Nuestro objetivo es asegurar que nuestros clientes tengan
+                  confianza en la calidad y efectividad de nuestros servicios.
+                </p>
+              </div>
             </div>
-        </section>
+            <div
+              class="col-md-6 mb-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="hero-image">
+                <img
+                  src="./img/WhatsApp_Image_2024-08-27_at_15.10.00-removebg-preview (1).png"
+                  alt="Norberto García"
+                  class="norberto-img"
+                />
+                <div class="norberto-info mt-3">
+                  <h2>Sobre Norberto García</h2>
+                  <ul>
+                    <li>
+                      <strong>Más de 20 años de experiencia:</strong> En
+                      asesoría de habilitaciones y superintendencia de salud.
+                    </li>
+                    <li>
+                      <strong>Asesoramiento especializado:</strong> En
+                      cumplimiento de normativas y optimización de procesos.
+                    </li>
+                    <li>
+                      <strong>Consultoría:</strong> Para obtención y renovación
+                      de habilitaciones y licencias.
+                    </li>
+                    <li>
+                      <strong>Experto en Legislación Sanitaria:</strong> Y
+                      Gestión de Calidad en Salud.
+                    </li>
+                    <li>
+                      <strong>Capacidad para interpretar y aplicar:</strong>
+                      Legislación vigente.
+                    </li>
+                    <li>
+                      <strong>Enfoque proactivo:</strong> En documentación,
+                      auditorías y evaluaciones.
+                    </li>
+                    <li>
+                      <strong
+                        >Trabajo con hospitales, clínicas y centros de
+                        atención:</strong
+                      >
+                      Diversos en el ámbito de la salud.
+                    </li>
+                    <li>
+                      <strong>Formador respetado:</strong> En habilitación y
+                      regulación sanitaria.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Nos encuentra:</p>
-            <ul>
-                <li>Email: <a href="mailto:nog47@yahoo.com.ar" class="contact-info">nog47@yahoo.com.ar</a></li>
-                <li>Teléfono: <a href="tel:+541150413292" class="contact-info">+54 11 50413292</a></li>
-            </ul>
-            <p>Gracias por su contacto.</p>
-            <p><strong>Norberto García</strong></p>
-        </section>
+      <section id="gallery" class="py-5">
+        <div class="container text-center">
+          <h2>Nuestras Referencias</h2>
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <img
+                src="./img/swiss medical.png"
+                alt="Swiss Medical"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img
+                src="./img/buen pastor.png"
+                alt="Buen Pastor"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./img/belgrano.png" alt="Belgrano" class="img-fluid" />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./img/duhau.png" alt="Duhau" class="img-fluid" />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./img/kaufer.png" alt="Kaufer" class="img-fluid" />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./img/quilmes.png" alt="Quilmes" class="img-fluid" />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img src="./img/urquiza.png" alt="Urquiza" class="img-fluid" />
+            </div>
+            <div class="col-md-3 mb-4">
+              <img
+                src="./img/maestrabza.png"
+                alt="Maestranza"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5">
+        <div class="container text-center">
+          <h2>Contacto</h2>
+          <p>Encontranos:</p>
+          <ul class="list-unstyled">
+            <li>
+              Email:
+              <a href="mailto:nog47@yahoo.com.ar" class="contact-info"
+                >nog47@yahoo.com.ar</a
+              >
+            </li>
+            <li>
+              Teléfono:
+              <a href="tel:+541150413292" class="contact-info"
+                >+54 11 50413292</a
+              >
+            </li>
+          </ul>
+          <p>Gracias por su contacto.</p>
+          <p><strong>Norberto García</strong></p>
+        </div>
+      </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Asesoramientos en Salud. Todos los derechos reservados.</p>
+    <footer class="text-white text-center py-3">
+      <p>&copy; 2024 Asesoramientos en Salud. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="scripts.js"></script>
-</body>
+    <!-- Enlace a Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/8+fn5E1f0nd0kQ1G6hN2hQkT5A5h0M21XakI2T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

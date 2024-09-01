@@ -1,248 +1,270 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    display: flex;
-    flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    background: #004d40; /* Verde oscuro */
-    color: #fff;
-    padding: 1rem;
+  background: #004d40; /* Verde oscuro */
+  color: #fff;
+  padding: 1rem;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 70px; /* Aumenta el tamaño del logo según tu preferencia */
+  height: auto;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 ul li {
-    margin: 0;
+  margin: 0;
 }
 
 ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 ul li a:hover {
-    color: #80cbc4; /* Verde agua claro */
+  color: #80cbc4; /* Verde agua claro */
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
 #hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #b2dfdb; /* Verde agua */
-    color: #004d40; /* Verde oscuro */
-    padding: 4rem 1rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #acf6c8; /* Verde claro para el fondo del héroe */
+  color: #004d40; /* Verde oscuro */
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    max-width: 1200px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .hero-text {
-    flex: 1;
+  flex: 1;
 }
 
 .hero-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .hero-text p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center; /* Alinea los botones al centro */
+  display: flex;
+  gap: 1rem;
+  justify-content: center; /* Alinea los botones al centro */
 }
 
 .btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.3s;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
 }
 
 .btn-email {
-    background: #009688; /* Verde oscuro */
+  background: #acf6c8; /* Verde oscuro */
 }
 
 .btn-whatsapp {
-    background: #25d366; /* Verde whatsapp */
+  background: #25d366; /* Verde whatsapp */
 }
 
 .btn-email:hover {
-    background: #00796b; /* Verde más oscuro */
-    transform: scale(1.1);
+  background: #1e8e4e; /* Verde más oscuro */
+  transform: scale(1.1);
 }
 
 .btn-whatsapp:hover {
-    background: #1e8e4e; /* Verde más oscuro */
-    transform: scale(1.1);
+  background: #1e8e4e; /* Verde más oscuro */
+  transform: scale(1.1);
 }
 
 .hero-image img {
-    width: 100%;
-    max-width: 400px; /* Limita el ancho de la imagen */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Limita el ancho de la imagen */
+  border-radius: 10px;
+  object-fit: cover; /* Mantiene la imagen completa sin perder proporción */
 }
 
 #services-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
 .services-and-image {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 1200px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
 }
 
 #services {
-    flex: 1;
+  flex: 1;
 }
 
 #services h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .service {
-    margin-bottom: 1.5rem;
-    transition: transform 0.3s;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s;
 }
 
 .service:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 #contact {
-    padding: 2rem 1rem;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #contact ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
 }
 
 #contact ul li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact-info {
-    color: #004d40; /* Verde oscuro */
-    text-decoration: none;
-    font-weight: bold;
+  color: #004d40; /* Verde oscuro */
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .contact-info:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-    background: #004d40; /* Verde oscuro */
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  background: #004d40; /* Verde oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 
-@media (min-width: 768px) {
-    #hero {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .hero-container {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .hero-text {
-        flex: 2;
-    }
-
-    .hero-image {
-        flex: 1;
-    }
-
-    .services-and-image {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 3rem; /* Espacio entre servicios e imagen */
-    }
+/* Carrusel - eliminamos el efecto del carrusel */
+#gallery {
+  padding: 2rem 1rem;
 }
 
-@media (max-width: 768px) {
-    .hero-text h1 {
-        font-size: 2rem;
-    }
+#gallery .col-md-3 {
+  display: flex;
+  justify-content: center;
+}
 
-    .hero-text p {
-        font-size: 1rem;
-    }
+#gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 250px; /* Tamaño máximo de las imágenes */
+  border-radius: 10px;
+}
 
-    .btn {
-        font-size: 0.875rem;
-        padding: 0.75rem 1.5rem;
-    }
+/* Información de Norberto García */
+.norberto-info {
+  background-color: #acf6c8; /* Fondo verde claro para contraste */
+  padding: 1rem;
+  border-radius: 8px; /* Bordes redondeados para el contenedor del texto */
+}
 
-    .services-and-image {
-        flex-direction: column;
-        gap: 2rem;
-    }
+.norberto-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #004d40; /* Color verde oscuro para el título */
+}
+
+.norberto-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.norberto-info ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333; /* Color de texto */
+}
+
+.norberto-info ul li strong {
+  color: #009688; /* Color verde para los textos destacados */
+}
+
+/* Aplicar el color verde a todas las negritas en la página */
+strong,
+b {
+  color: #009688; /* Color verde para todas las negritas */
+}
+
+/* Estilos para la imagen de Norberto García */
+.norberto-img {
+  width: 80%; /* Ajusta el ancho según sea necesario */
+  max-width: 250px; /* Tamaño máximo para la imagen */
+  height: auto;
+  border-radius: 10px; /* Agrega border-radius a la imagen */
 }
