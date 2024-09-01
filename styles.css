@@ -25,45 +25,49 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .logo-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  text-align: center;
 }
 
 .logo-img {
-  width: 80px; /* Tamaño del logo en pantallas grandes */
+  width: 100px; /* Tamaño del logo en pantallas grandes */
   height: auto;
 }
 
 .logo-text {
-  font-size: 1.2rem; /* Tamaño del texto del logo */
+  font-size: 1.5rem; /* Tamaño del texto del logo */
   font-weight: bold;
 }
 
-ul {
+/* Navegación para pantallas grandes */
+nav ul {
   list-style: none;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-ul li {
+  padding: 0;
   margin: 0;
 }
 
-ul li a {
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   color: #80cbc4; /* Verde agua claro */
 }
 
@@ -331,23 +335,43 @@ b {
   #services-container {
     padding: 1rem;
   }
+
+  /* Estilos para el menú en dispositivos móviles */
+  .logo-container {
+    gap: 1rem;
+  }
+
+  .logo-img {
+    width: 120px; /* Aumenta el tamaño del logo en pantallas pequeñas */
+  }
+
+  .logo-text {
+    font-size: 2rem; /* Aumenta el tamaño del texto del logo */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
   .logo-text {
-    font-size: 1rem; /* Reduce el tamaño del texto del logo */
+    font-size: 1.5rem; /* Aumenta el tamaño del texto del logo en pantallas más pequeñas */
   }
 
   .logo-img {
-    width: 60px; /* Aumenta el tamaño del logo */
+    width: 100px; /* Tamaño del logo en pantallas más pequeñas */
   }
 
   .hero-text h1 {
-    font-size: 1.5rem; /* Reduce el tamaño del título */
+    font-size: 1.75rem; /* Aumenta el tamaño del título */
   }
 
   .hero-text p {
-    font-size: 0.875rem; /* Reduce el tamaño del párrafo */
+    font-size: 1rem; /* Aumenta el tamaño del párrafo */
   }
 
   .btn {
