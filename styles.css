@@ -338,15 +338,15 @@ b {
 
   /* Estilos para el menú en dispositivos móviles */
   .logo-container {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .logo-img {
-    width: 120px; /* Aumenta el tamaño del logo en pantallas pequeñas */
+    width: 150px; /* Aumenta el tamaño del logo en pantallas pequeñas */
   }
 
   .logo-text {
-    font-size: 2rem; /* Aumenta el tamaño del texto del logo */
+    font-size: 2.5rem; /* Aumenta el tamaño del texto del logo */
   }
 
   nav ul {
@@ -359,7 +359,7 @@ b {
 
 @media (max-width: 576px) {
   .logo-text {
-    font-size: 1.5rem; /* Aumenta el tamaño del texto del logo en pantallas más pequeñas */
+    font-size: 2.5rem; /* Aumenta el tamaño del texto del logo en pantallas más pequeñas */
   }
 
   .logo-img {
@@ -367,7 +367,7 @@ b {
   }
 
   .hero-text h1 {
-    font-size: 1.75rem; /* Aumenta el tamaño del título */
+    font-size: 2.5rem; /* Aumenta el tamaño del título */
   }
 
   .hero-text p {
