@@ -19,7 +19,7 @@ body {
 
 header {
   background: #acf6c8; /* Verde oscuro */
-  color: #fff;
+  color: #000000;
   padding: 1rem;
 }
 
@@ -62,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #024117;
   text-decoration: none;
   transition: color 0.3s;
 }
