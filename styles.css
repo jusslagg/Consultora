@@ -39,7 +39,7 @@ nav {
 }
 
 .logo-img {
-  width: 70px; /* Aumenta el tamaño del logo según tu preferencia */
+  width: 70px; /* Tamaño del logo en pantallas grandes */
   height: auto;
 }
 
@@ -321,10 +321,6 @@ b {
     text-align: center;
   }
 
-  .hero-container {
-    gap: 1rem;
-  }
-
   .hero-image img {
     max-width: 100%;
   }
@@ -336,19 +332,19 @@ b {
 
 @media (max-width: 576px) {
   .logo {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Reduce el tamaño del texto del logo */
   }
 
   .logo-img {
-    width: 50px;
+    width: 50px; /* Reduce el tamaño del logo */
   }
 
   .hero-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Reduce el tamaño del título */
   }
 
   .hero-text p {
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* Reduce el tamaño del párrafo */
   }
 
   .btn {
