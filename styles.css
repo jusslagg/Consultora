@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: #004d40; /* Verde oscuro */
+  background: #50cfba; /* Verde oscuro */
   color: #fff;
   padding: 1rem;
 }
@@ -211,7 +211,7 @@ main {
 }
 
 footer {
-  background: #004d40; /* Verde oscuro */
+  background: #acf6c8; /* Verde oscuro */
   color: #fff;
   text-align: center;
   padding: 1rem;
