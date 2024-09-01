@@ -119,7 +119,7 @@ main {
 }
 
 .btn-email {
-  background: #acf6c8; /* Verde oscuro */
+  background: #009688; /* Verde oscuro */
 }
 
 .btn-whatsapp {
@@ -127,7 +127,7 @@ main {
 }
 
 .btn-email:hover {
-  background: #1e8e4e; /* Verde más oscuro */
+  background: #00796b; /* Verde más oscuro */
   transform: scale(1.1);
 }
 
@@ -267,4 +267,97 @@ b {
   max-width: 250px; /* Tamaño máximo para la imagen */
   height: auto;
   border-radius: 10px; /* Agrega border-radius a la imagen */
+}
+
+/* Media Queries para responsividad */
+
+@media (max-width: 1200px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  #services-container {
+    padding: 1.5rem 1rem;
+  }
+
+  #services h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    gap: 1.5rem;
+  }
+
+  .hero-text {
+    padding: 0 1rem;
+  }
+
+  #contact {
+    padding: 1.5rem 1rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .hero-container {
+    gap: 1rem;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+
+  #services-container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .logo-img {
+    width: 50px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.875rem;
+  }
+
+  .btn {
+    padding: 0.8rem;
+    font-size: 0.875rem;
+  }
+
+  #contact {
+    padding: 1rem;
+    font-size: 0.875rem;
+  }
 }
