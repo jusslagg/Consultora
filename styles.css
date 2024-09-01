@@ -359,15 +359,15 @@ b {
 
 @media (max-width: 576px) {
   .logo-text {
-    font-size: 3rem; /* Aumenta el tamaño del texto del logo en pantallas más pequeñas */
+    font-size: 2rem; /* Aumenta el tamaño del texto del logo en pantallas más pequeñas */
   }
 
   .logo-img {
-    width: 100px; /* Tamaño del logo en pantallas más pequeñas */
+    width: 180px; /* Tamaño del logo en pantallas más pequeñas */
   }
 
   .hero-text h1 {
-    font-size: 2rem; /* Aumenta el tamaño del título */
+    font-size: 1rem; /* Aumenta el tamaño del título */
   }
 
   .hero-text p {
