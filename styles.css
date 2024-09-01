@@ -30,17 +30,20 @@ nav {
   flex-wrap: wrap;
 }
 
-.logo {
+.logo-container {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .logo-img {
-  width: 70px; /* Tamaño del logo en pantallas grandes */
+  width: 80px; /* Tamaño del logo en pantallas grandes */
   height: auto;
+}
+
+.logo-text {
+  font-size: 1.2rem; /* Tamaño del texto del logo */
+  font-weight: bold;
 }
 
 ul {
@@ -331,12 +334,12 @@ b {
 }
 
 @media (max-width: 576px) {
-  .logo {
-    font-size: 1.2rem; /* Reduce el tamaño del texto del logo */
+  .logo-text {
+    font-size: 1rem; /* Reduce el tamaño del texto del logo */
   }
 
   .logo-img {
-    width: 50px; /* Reduce el tamaño del logo */
+    width: 60px; /* Aumenta el tamaño del logo */
   }
 
   .hero-text h1 {
